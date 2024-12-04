@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>SLA 3(Registration Form)</title>
+ <style>
+body{
+background-color:#E5E4E2;
+padding:15px;
+font-family:verdana;
+font-size:20px;
+}
+.container{
+max-width: 600px;
+margin: auto;
+background-color:white;
+padding: 20px;
+border: 2px solid black;
+border-radius: 8px;
+}
+h1{
+text-align:center;
+}
+button{
+background-color:red;
+color:white;
+font-family:verdana;
+font-size:16px;
+border:2px solid black;
+border-radius:7px;
+margin-right:5px;
+padding:7px;
+}
+input, select{
+font-family:verdana;
+font-size:18px;
+padding:5px;
+width:100%;
+border: 2px solid black;
+border-radius: 4px;
+}
+.div{
+padding:10px;
+background-color:midnightblue;
+font-size:20px;
+}
+a{
+margin-right:10px;
+color:white;
+}
+ </style>
+</head>
+<body>
+<div class="div">
+<a href="SLA 1.html">SLA 1</a>
+<a href="sla 2.1.html">SLA 2(TABLE)</a>
+<a href="sla 2.2.html">SLA 2(LISTS)</a>
+<a href="sla3.1.html">SLA 3(Registration Form)</a>
+<a href="sla3.2.html">SLA 3(Feedback Form)</a>
+<a href="sla4.html">SLA 4</a>
+</div>
+ <div class="container">
+ <u><h1>Sports Registration Form</h1></u>
+ <form>
+  <label for="name">Enter your Name:</label>
+  <input type="name" id="name" name="name"><br><br>
+  <label for="age">Enter your Age:</label>
+  <input type="number" id="number" name="number"><br><br>
+  <label>Enrollment no.:</label>
+  <input type="text"><br><br>
+  <label>Contact Number:</label>
+  <input type="text"><br><br>
+  <label>Department:</label>
+  <select>
+   <option name="dept" value="0">--Select your Department--</option>
+   <option name="dept" value="1">Civil Engineering</option>
+   <option name="dept" value="2">Computer Engineering</option>
+   <option name="dept" value="3">Mechanical Engineering</option>
+   <option name="dept" value="4">Industrial Electronics</option>
+   <option name="dept" value="5">Electrical Engineering</option>
+  </select><br><br>
+  <label>Sport:</label>
+  <select>
+   <option name="group" value="0">--Select your Sport--</option>
+   <option name="group" value="1">Cricket</option>
+   <option name="group" value="2">Football</option>
+   <option name="group" value="3">Athletics</option>
+   <option name="group" value="4">Basketball</option>
+   <option name="group" value="5">Badminton</option>
+  </select><br><br>
+  <button type="submit">Submit Form</button>
+  <button type="reset">Clear Form</button>
+ </form>
+ </div>
+</body> 
+</html>

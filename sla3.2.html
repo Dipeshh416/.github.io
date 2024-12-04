@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>SLA 3(Feedback Form)</title>
+<style>
+body{
+font-family:verdana;
+background-color:#FFFFF0;
+padding:10px;
+}
+.container{
+max-width: 600px;
+margin: auto;
+background-color:white;
+padding: 20px;
+border: 1px solid black;
+border-radius: 8px;
+}
+h1{
+text-align:center;
+}
+form{
+font-size:20px;
+}
+.width{
+width:100%;
+padding: 5px;
+border: 1px solid black;
+border-radius: 4px;
+}
+button{
+background-color:red;
+color:white;
+font-family:verdana;
+font-size:18px;
+border:2px solid black;
+border-radius:6px;
+margin-right:5px;
+padding:7px;
+}
+select{
+font-size:18px;
+padding:5px;
+width:100%;
+border: 1px solid black;
+border-radius: 2px;
+}
+.div{
+padding:10px;
+background-color:midnightblue;
+font-size:20px;
+}
+a{
+margin-right:10px;
+color:white;
+}
+</style>
+</head>
+<body>
+<div class="div">
+<a href="SLA 1.html">SLA 1</a>
+<a href="sla 2.1.html">SLA 2(TABLE)</a>
+<a href="sla 2.2.html">SLA 2(LISTS)</a>
+<a href="sla3.1.html">SLA 3(Registration Form)</a>
+<a href="sla3.2.html">SLA 3(Feedback Form)</a>
+<a href="sla4.html">SLA 4</a>
+</div>
+ <div class="container">
+ <u><h1>Feedback Form</h1></u><br>
+ <form>
+  <label for="name">Name:</label>
+  <input class="width" type="name" id="name" name="name" required><br><br>
+  <label for="email">Email:</label>
+  <input class="width" type="email" id="email" name="email" required><br><br>
+  <label>How would you rate your overall experience with our website(XYZ Electronics)?</label><br>
+  <input type="radio" name="experience" value="1" required><label> Excellent</label><br>
+  <input type="radio" name="experience" value="2"><label> Good</label><br>
+  <input type="radio" name="experience" value="3"><label> Average</label><br>
+  <input type="radio" name="experience" value="4 "><label> Poor</label><br><br>
+  <label>Did the website design appeal to you? (Scale 1-5):</label><br>
+  <input type="radio" name="design" value="1" required><label> 1</label><br>
+  <input type="radio" name="design" value="2"><label> 2</label><br>
+  <input type="radio" name="design" value="3"><label> 3</label><br>
+  <input type="radio" name="design" value="4"><label> 4</label><br>
+  <input type="radio" name="design" value="5"><label> 5</label><br><br>
+  <label>Which product category did you explore?</label>
+  <select>
+   <option name="product" value="0">--Select--</option>
+   <option name="product" value="1">Mobile Phones</option>
+   <option name="product" value="2">Computer Accessories</option>
+   <option name="product" value="3">Television</option>
+   <option name="product" value="4">Others</option>
+  </select><br><br>
+  <label for="suggestions">Any suggestions for improvement?</label><br>
+  <textarea class="width" id="suggestions" name="suggestions"></textarea><br><br>
+  <button type="submit">Submit Feedback</button>
+  <button type="reset">Clear Form</button>
+ </form>
+ </div>
+</body>
+</html>
